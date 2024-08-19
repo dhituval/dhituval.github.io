@@ -1,11 +1,12 @@
 ---
 layout: default
 modal-id: 1
-date: 2014-07-18
+date: 2020-04-16
 img: cabin.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+project-date: April 2020
+client: xCode
+category: iOS App Development
+description: KeepMeSafe is a free women's safety app that uses voice recognition to detect the word "help," triggers a loud alarm to deter the perpetrator, and uses geopositioning to send the user's location to 9-1-1.
+
 ---
