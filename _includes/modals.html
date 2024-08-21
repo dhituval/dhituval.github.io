@@ -35,15 +35,10 @@
                 <strong>{{ post.category }}</strong>
               </li>
               {% endif %}
-              {% if post.link1 %}
-              <li>Service:
-                <strong>{{ post.link1 }}</strong>
-              </li>
-              {% endif %}
-              {% if post.link2 %}
-              <li>Service:
-                <strong>{{ post.link2 }}</strong>
-              </li>
+              {% if post.links %}
+              {% for link in post.links %}
+              <li><a href="{{ link.url }}" target="_blank">{{ link.title }}</a></li>
+              {% endfor %}
               {% endif %}
             </ul>
             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
