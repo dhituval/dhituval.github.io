@@ -1,0 +1,13 @@
+---
+layout: default
+modal-id: 3
+date: current
+img: github.png
+alt: image-alt
+project-date: current
+category: Github
+description: Look at my Github here!
+links:
+  - title: Github
+    url: https://github.com/dhituval
+---
